@@ -1,0 +1,9 @@
+Q: Which product is underperforming?
+A: ❌ LLM parsing failed: Expecting value: line 1 column 1 (char 0)
+
+Q: Which product is underperforming
+A: ❌ LLM parsing failed: Expecting value: line 1 column 1 (char 0)
+
+Q: Which product is underperforming?
+A: Based on the reorder suggestions, I'd say that Product ID 2518 is underperforming! Its current stock level is only 100 units, but its predicted demand is quite high at 374.17 units. This product may require some extra attention to get its inventory levels back on track.
+

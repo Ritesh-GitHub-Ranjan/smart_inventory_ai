@@ -1,0 +1,39 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Inventory Dashboard</title>
+            <style>
+                body { font-family: Arial, sans-serif; padding: 30px; background: #f4f4f4; }
+                h1 { color: #2d3436; }
+                ul { font-size: 18px; }
+                img { border: 1px solid #ccc; border-radius: 8px; margin: 20px 0; }
+                .chart-container { margin-bottom: 40px; }
+            </style>
+        </head>
+        <body>
+            <h1>Inventory Monitoring Dashboard</h1>
+            <ul>
+                <li>Stockout risk: 1050 items</li>
+                <li>Expiring soon: 10000 items</li>
+                <li>Low warehouse capacity items: 0</li>
+            </ul>
+
+            <div class="chart-container">
+                <h2>Stock Levels vs Reorder Point</h2>
+                <img src="stock_vs_reorder.png" width="600">
+            </div>
+
+            <div class="chart-container">
+                <h2>Expiring Products</h2>
+                <img src="expiry_pie.png" width="400">
+            </div>
+
+            <div class="chart-container">
+                <h2>Warehouse Capacity Distribution</h2>
+                <img src="capacity_histogram.png" width="500">
+            </div>
+        </body>
+        </html>
+        

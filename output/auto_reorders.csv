@@ -1,0 +1,4 @@
+Product ID,Store ID,Reorder Quantity,Status,ProcessedAt
+1001,STORE001,25,Auto-Reordered,2025-04-09 13:50:18
+1002,STORE001,15,Auto-Reordered,2025-04-09 13:50:18
+1003,STORE002,20,Auto-Reordered,2025-04-09 13:50:18
